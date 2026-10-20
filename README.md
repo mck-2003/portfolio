@@ -1,2 +1,2 @@
 # portfolio
-read my portfolio at the deployment link if you want!
+[read my portfolio](https://mck-2003.github.io/portfolio/)
