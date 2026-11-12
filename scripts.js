@@ -1,22 +1,10 @@
 const modal = document.getElementById("entryModal");
-const entrybutton = document.getElementById("entryButton")
-
 
 $(document).ready(function(){
-
-    if (sessionStorage.getItem("skipModal") != "true") {
-        console.log(sessionStorage.getItem("skipModal"));
-        showModal(modal); 
-    }
-
-    $('#entryButton').on("click", function() {
-        sessionStorage.setItem("skipModal", "true");
-        console.log(sessionStorage.getItem("skipModal"));
-    });
-
+    var about = 'about.html';
+    if (document.referrer.indexOf(about) != -1) { showModal(modal);}
    
 });
-
 
 function showModal(id) {
     $("#" + id).fadeIn('slow');
