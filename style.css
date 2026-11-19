@@ -165,7 +165,13 @@ display: grid;
   }
 
   .tooltipText {
-    width: 200px;
+    width: 150px;
+  }
+
+  #entryButton {
+    font-size: 24px;
+    width: 120px;
+    height: 40px;
   }
 
 }
